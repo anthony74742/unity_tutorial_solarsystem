@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1256987360493807519}
-  - component: {fileID: 6170846300135474366}
+  - component: {fileID: 7065325209178693110}
   m_Layer: 0
   m_Name: moon_orbit
   m_TagString: Untagged
@@ -33,7 +33,7 @@ Transform:
   m_Father: {fileID: 7975275887871416924}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6170846300135474366
+--- !u!114 &7065325209178693110
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42,10 +42,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7525567887453582169}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 827ee55e7a5e17a4992be3939433c4d7, type: 3}
+  m_Script: {fileID: 11500000, guid: 5fca4015ed166eb46838c5763d2e3c43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  preset: {fileID: 11400000, guid: 1d124279d4d09f64884e1498899dce06, type: 2}
+  Planet: {fileID: 1198529302750760150}
 --- !u!1001 &9191128451652924619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -197,6 +198,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b970227b4f07294388707f1bbf4a640, type: 3}
+--- !u!1 &1198529302750760150 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8011005347391815707, guid: 6b970227b4f07294388707f1bbf4a640, type: 3}
+  m_PrefabInstance: {fileID: 9191502587739786445}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7078602256203818409 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2140047482772449636, guid: 6b970227b4f07294388707f1bbf4a640, type: 3}
